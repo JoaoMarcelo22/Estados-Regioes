@@ -1,3 +1,8 @@
+@charset "utf-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
 img{
     width: 70%;
     height: 100%;
@@ -53,6 +58,7 @@ nav{
     height: 180px;
     width: 200px;
     margin: 5%;
+    padding: 25px;
 }
 #RegiaoNordeste{
     background-color:#ffb065;
@@ -60,6 +66,7 @@ nav{
     height: 180px;
     width: 200px;
     margin: 5%;
+    padding: 25px;
 }
 #RegiaoCentro{
     background-color:#e5ff00 ;
