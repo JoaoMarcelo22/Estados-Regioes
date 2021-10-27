@@ -4,8 +4,9 @@
     padding: 0px;
 }
 img{
-    width: 70%;
+    width: 90%;
     height: 100%;
+    margin: auto;
 }
 th{
     padding: 10px;
@@ -19,22 +20,28 @@ body{
     
 }
 footer{
-    width: 100%;
+    width: 90%;
     height: 100%;
     text-align: center;
-    margin: 0px;
+    margin: auto;
     padding: 0px;
     background-color: rgba(172, 255, 47, 0.603);
 }
 
 nav{
+    margin: auto;
+    width: 90%;
     background-color: greenyellow;
     text-align: center;
 }
 .menu{
     font-size: 26px;
     margin: 5%;
-    color:green;
+    padding: 2px;
+    background-color:rgba(0, 128, 0, 0.192);
+}
+nav a:hover{
+    background-color: grey;
 }
 #RNE{
     background-color: rgba(107, 175, 4, 0.603);
@@ -88,4 +95,17 @@ nav{
     height: 180px;
     width: 200px;
     margin: 5%;
+}
+div td{
+    border:2px solid #000000;
+}
+div th{
+    border:2px dotted #000000;
+    background-color: greenyellow;
+}
+div table{
+    margin: auto;
+}
+footer li{
+    display: inline-block;
 }
